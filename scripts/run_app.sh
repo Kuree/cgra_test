@@ -31,6 +31,7 @@ cd ${v}
     -out1 s1t0 ${app_name}_CGRA_out1.raw \
     -delay  0,0 \
     -nclocks 1M \
+    -trace trace.vcd
 
 cmp ${app_name}_CGRA_out.raw ${ROOT_DIR}/dataset/out_${app_name}.raw
 

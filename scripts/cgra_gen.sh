@@ -13,8 +13,6 @@ fi
 if [ ! -d TestBenchGenerator ]; then
     git clone --depth 1 https://github.com/StanfordAHA/TestBenchGenerator
     pip install -r TestBenchGenerator/requirements.txt
-    # fix a bug in harness
-    sed -i "s/ios::/std::ios::/g" TestBenchGenerator/generate_harness.py
 fi
 
 # switch to dev branch
