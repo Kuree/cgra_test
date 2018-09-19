@@ -2,7 +2,7 @@
 set -xe
 
 declare -a apps_16=("abs" "ucomp" "arith" "uminmax"
-                    "bool" "scomp")
+                    "bool" "scomp" "shift")
 
 declare -a io_16=("shift")
 

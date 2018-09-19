@@ -27,6 +27,7 @@ cd ${v}
 ./run_tbg.csh \
     -nogen \
     -config ${WD}/${app_name}.bsa \
+    -io_config ${ROOT_DIR}/dataset/${app_name}.bsb.json \
     -input  ${ROOT_DIR}/dataset/input_${app_name}.raw \
     -output ${app_name}_CGRA_out.raw \
     -out1 ${app_name}_CGRA_out1.raw \
