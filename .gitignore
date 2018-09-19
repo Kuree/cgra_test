@@ -3,6 +3,9 @@ CGRAGenerator/
 cgra_pnr/
 TestBenchGenerator/
 
+# code to generate inputs/outputs
+src
+
 # pnr files
 *.n2v
 *.packed
