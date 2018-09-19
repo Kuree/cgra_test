@@ -38,10 +38,10 @@ Following operator passed the tests:
 + uminmax
 + bool
 + scomp
++ shift
++ ternary
 
-Following operator failed to pass the tests for various reasons:
+Following operators failed to pass the tests for various reasons:
 + sminmax
 + bitwise
-+ shift
 + eq
-+ ternary
