@@ -2,9 +2,9 @@
 set -xe
 
 declare -a apps_16=("abs" "ucomp" "arith" "uminmax"
-                    "bool" "scomp" "shift")
+                    "bool" "scomp" "shift" "ternary")
 
-declare -a io_16=("shift")
+declare -a io_16=("shift" "ternary")
 
 for file in "${apps_16[@]}"
 do
