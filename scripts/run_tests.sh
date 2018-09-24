@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -xe
 
-declare -a apps_16=("abs" "ucomp" "arith" "uminmax"
+declare -a apps_16=("eq" "abs" "ucomp" "arith" "uminmax"
                     "bool" "scomp" "shift" "ternary")
 
 declare -a io_16=("shift" "ternary")

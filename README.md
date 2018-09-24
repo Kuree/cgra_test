@@ -40,8 +40,8 @@ Following operator passed the tests:
 + scomp
 + shift
 + ternary
++ eq
 
 Following operators failed to pass the tests for various reasons:
 + sminmax
 + bitwise
-+ eq
