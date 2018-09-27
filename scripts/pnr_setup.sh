@@ -6,7 +6,7 @@ dest_dir=${PNR_DIR}
 WD=${ROOT_DIR}
 
 if [ ! -d ${dest_dir} ]; then
-    git clone --single-branch -b new_io --depth 1 \
+    git clone --single-branch -b master --depth 1 \
         https://github.com/Kuree/cgra_pnr ${dest_dir}
 fi
 
