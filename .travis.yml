@@ -7,12 +7,20 @@ python:
 
 addons:
   apt:
+    sources:
+      - ubuntu-toolchain-r-test
     packages:
       - make
       - gcc
       - realpath
       - verilator
       - csh
+      - g++-7
+      - gcc-7
+
+install:
+  - sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 99
+  - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 99
 
 script:
   - source scripts/set_env.sh

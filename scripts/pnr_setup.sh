@@ -11,5 +11,8 @@ if [ ! -d ${dest_dir} ]; then
 fi
 
 cd ${dest_dir}
+# clone pybind11
+git submodule update --init --recursive
+pip install thunder/
 make
 pip install -r requirements.txt
