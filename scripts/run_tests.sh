@@ -10,7 +10,8 @@ for file in "${apps_16[@]}"
 do
     # fix mapped core ir json
     app="dataset/${file}.json"
-    ${COREIR_FIX} dataset/design_mapped_${file}.json ${app}
+    python ${MUX_FIX} dataset/design_mapped_${file}.json ${app}_temp
+    ${COREIR_FIX} ${app}_temp ${app}
     # run pnr
     ${PNR} ${CGRA_INFO} ${app}
     # make sure the bsb file exists

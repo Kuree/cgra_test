@@ -25,6 +25,7 @@ export ROOT_DIR=${WD}
 export PNR_DIR=${WD}/cgra_pnr
 export PNR=${PNR_DIR}/scripts/pnr_flow.sh
 export COREIR_FIX=${PNR_DIR}/coreir_fix/fix_all.sh
+export MUX_FIX=${PNR_DIR}/coreir_fix/fix_mux.py
 export -f deactivate_cgra
 
 # set up the prompt
