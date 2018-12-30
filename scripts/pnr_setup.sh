@@ -14,5 +14,6 @@ cd ${dest_dir}
 # clone pybind11
 git submodule update --init --recursive
 pip install thunder/
+pip install cyclone/
 make
 pip install -r requirements.txt
